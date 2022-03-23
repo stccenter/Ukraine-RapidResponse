@@ -180,7 +180,6 @@ def GenerateDifference(pre_file, post_file):
 
 if __name__ == '__main__':
 
-
     shpfilepath = './Data/Input/Shapefiles/'
     major_cities = ['Chernihiv','Cherkasy','Chernivtsi','Donetsk','Dnipro','Ivano-Frankivsk','Kherson',\
         'Kharkiv','Kyiv','Khmelnytskyi','Kropyvnytskyi','Kryvyi Rih','Luhansk','Lutsk','Lviv',\
@@ -194,6 +193,7 @@ if __name__ == '__main__':
 
 #     start_date = datetime.strptime('2022-02-14', '%Y-%m-%d')
 #     end_date = datetime.strptime('2022-03-05', '%Y-%m-%d')
+    parser = argparse.ArgumentParser(description='Provide arguments.')
 
     parser.add_argument("-s", "--startdate", type=str, help="The Start Date - format YYYY-MM-DD", required=True)
     parser.add_argument("-e", "--enddate", type=str, help="Specify the start date.", required=True)
