@@ -1,0 +1,59 @@
+# Test run1
+name: Generate Nighttime Light Data
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  start_date : '2022-02-19'
+  end_date: '2022-02-28'
+  timedelta: 4
+  
+jobs:
+  NTL-Extract:
+    name: NTL-Extract
+    runs-on: "ubuntu-latest"
+    defaults:
+      run:
+        shell: bash -l {0}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: conda-incubator/setup-miniconda@v2
+        with:
+          activate-environment: anaconda-client-env
+          environment-file: etc/example-environment.yml
+          python-version: 3.8
+          condarc-file: etc/example-condarc.yml
+          auto-activate-base: false
+      - run: |
+          conda info
+          conda list
+          
+      - name: Read VIIRS VNP46A2 data to generate NC files for Kyiv region
+        run: python Scripts/VIIRS-VNP46A2.py -r Kyiv -s $start_date -e $end_date
+        continue-on-error: true
+          
+      - name: Calculate daily and periodical mean for major cities
+        run: python Scripts/MajorCities-DailyMean-NTL.py
+        continue-on-error: true
+        
+      - name: Calculate statistics from daily and periodical mean
+        run: python Scripts/MajorCities-Statistics-NTL.py
+        continue-on-error: true
+
+        
+      - name: Commit data files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git status
+          git add .
+          git commit -m "Dataset Update" || echo "Nothing to commit"
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          repository: stccenter/Ukraine-RapidResponse
+          github_token: ${{ secrets.GITHUB_TOKEN }}
