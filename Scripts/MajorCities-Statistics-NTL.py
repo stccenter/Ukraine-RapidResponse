@@ -197,8 +197,8 @@ if __name__ == "__main__":
     lon_west, lon_east, lat_north, lat_south, size = 0.0, 0.0, 0.0, 0.0, 0
     for region in regions:
         for period in periods:
-            in_path = './Data/Input/NC-Files/MajorCities/'+year+'/'+region+'/'+period+'/'
-            out_path = './Data/Output/Statistics/MajorCities/'+year+'/'+period+'/'+region+'/'
+            in_path = './Data/Input/NC-Files/MajorCities/'+str(year)+'/'+region+'/'+period+'/'
+            out_path = './Data/Output/Statistics/MajorCities/'+str(year)+'/'+period+'/'+region+'/'
             if not os.path.exists(out_path):
                 os.makedirs(out_path)
 
