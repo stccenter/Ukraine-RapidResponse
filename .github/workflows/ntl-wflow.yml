@@ -10,6 +10,7 @@ env:
   start_date : '2022-02-14'
   end_date: '2022-03-15'
   timedelta: 10
+  year: 2022
   
 jobs:
   NTL-Extract:
@@ -31,16 +32,13 @@ jobs:
           conda info
           conda list
           
-      - name: Read VIIRS VNP46A2 data to generate NC files for Kyiv region
-        run: python Scripts/VIIRS-VNP46A2.py -r Kyiv -s $start_date -e $end_date
-        continue-on-error: true
           
       - name: Calculate daily and periodical mean for major cities
-        run: python Scripts/MajorCities-DailyMean-NTL.py
+        run: python Scripts/MajorCities-DailyMean-NTL.py -s $start_date -e $end_date -td 10
         continue-on-error: true
         
       - name: Calculate statistics from daily and periodical mean
-        run: python Scripts/MajorCities-Statistics-NTL.py
+        run: python Scripts/MajorCities-Statistics-NTL.py -y $year
         continue-on-error: true
 
         
