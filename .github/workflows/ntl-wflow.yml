@@ -7,9 +7,9 @@ on:
       - main
 
 env:
-  start_date : '2022-02-19'
-  end_date: '2022-02-28'
-  timedelta: 4
+  start_date : '2022-02-14'
+  end_date: '2022-03-15'
+  timedelta: 10
   
 jobs:
   NTL-Extract:

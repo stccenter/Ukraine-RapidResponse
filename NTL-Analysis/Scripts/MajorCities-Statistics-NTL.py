@@ -7,6 +7,7 @@ from datetime import datetime, date, timedelta
 import geopandas as gpd
 import csv
 import pandas as pd
+import argparse
 
 def ExtractNC4ByName(filename, dsname):
     nc_data = Dataset(filename)
@@ -179,6 +180,11 @@ if __name__ == "__main__":
         'Kharkiv','Kyiv','Khmelnytskyi','Kropyvnytskyi','Kryvyi Rih','Luhansk','Lutsk','Lviv',\
         'Mariupol','Mykolaiv','Odesa','Poltava','Rivne','Sevastopol','Simferopol','Sumy','Ternopil','Uzhhorod','Vinnytsia',\
         'Yalta','Zaporizhzhia','Zhytomyr']
+    
+    parser = argparse.ArgumentParser(description='Provide arguments.')
+    parser.add_argument("-y", "--year", type=int, help="Year of interest", required=True)
+    args = parser.parse_args()
+    year = args.year
 
     periods = ['period','daily']
     countries_list,  cities_list  = [], []
@@ -191,8 +197,8 @@ if __name__ == "__main__":
     lon_west, lon_east, lat_north, lat_south, size = 0.0, 0.0, 0.0, 0.0, 0
     for region in regions:
         for period in periods:
-            in_path = './Data/Input/NC-Files/MajorCities/'+region+'/'+period+'/'
-            out_path = './Data/Output/Statistics/MajorCities/'+period+'/'+region+'/'
+            in_path = './Data/Input/NC-Files/MajorCities/'+year+'/'+region+'/'+period+'/'
+            out_path = './Data/Output/Statistics/MajorCities/'+year+'/'+period+'/'+region+'/'
             if not os.path.exists(out_path):
                 os.makedirs(out_path)
 

@@ -180,8 +180,7 @@ def GenerateDifference(pre_file, post_file):
 
 if __name__ == '__main__':
 
-    # Indicate your input raw data and output folder
-    Data_infolder = './Data/Input/VIIRS-VNP46A2/2022/'
+
     shpfilepath = './Data/Input/Shapefiles/'
     major_cities = ['Chernihiv','Cherkasy','Chernivtsi','Donetsk','Dnipro','Ivano-Frankivsk','Kherson',\
         'Kharkiv','Kyiv','Khmelnytskyi','Kropyvnytskyi','Kryvyi Rih','Luhansk','Lutsk','Lviv',\
@@ -193,8 +192,22 @@ if __name__ == '__main__':
     admin1_gpd = gpd.GeoDataFrame.from_file(shpfilepath+'/UKR_adm1.shp')
     admin2_gpd =  gpd.GeoDataFrame.from_file(shpfilepath+'/UKR_adm2.shp')
 
-    start_date = datetime.strptime('2022-02-14', '%Y-%m-%d')
-    end_date = datetime.strptime('2022-03-05', '%Y-%m-%d')
+#     start_date = datetime.strptime('2022-02-14', '%Y-%m-%d')
+#     end_date = datetime.strptime('2022-03-05', '%Y-%m-%d')
+
+    parser.add_argument("-s", "--startdate", type=str, help="The Start Date - format YYYY-MM-DD", required=True)
+    parser.add_argument("-e", "--enddate", type=str, help="Specify the start date.", required=True)
+    parser.add_argument("-td", "--timedelta", type=int, help="Year of interest", required=True)
+
+    args = parser.parse_args()
+
+    # Set up the start and end date of your study period
+    start_date = args.startdate
+    end_date = args.enddate
+    time_delta = args.timedelta
+  
+    start_date = datetime.strptime(start_date, '%Y-%m-%d')
+    end_date = datetime.strptime(end_date, '%Y-%m-%d')
 
     year = start_date.year
     day_start = start_date.day
@@ -202,7 +215,6 @@ if __name__ == '__main__':
     day_end = end_date.day
     month_end = end_date.month
 
-    time_delta = 10
 
     before_sd = start_date
     before_ed = start_date + timedelta(time_delta) - timedelta(1)
@@ -211,12 +223,16 @@ if __name__ == '__main__':
 
     print(before_sd, before_ed, after_sd, after_ed)
     
+     # Indicate your input raw data and output folder
+    Data_infolder = './Data/Input/VIIRS-VNP46A2/'+year+'/'
+    
     pt_change_list, city_admin = [], []
     lon_west, lon_east, lat_north, lat_south = 0.0, 0.0, 0.0, 0.0
+    
     for city in major_cities:
-        output_daily_dir = './Data/Input/NC-Files/MajorCities/2022/'+city+'/daily/'
-        output_period_dir = './Data/Input/NC-Files/MajorCities/2022/'+city+'/period/'
-        output_period_diff = './Data/Input/NC-Files/MajorCities/2022/'+city+'/difference/'
+        output_daily_dir = './Data/Input/NC-Files/MajorCities/'+year+'/'+city+'/daily/'
+        output_period_dir = './Data/Input/NC-Files/MajorCities/'+year+'/'+city+'/period/'
+        output_period_diff = './Data/Input/NC-Files/MajorCities/'+year+'/'+city+'/difference/'
         
 
         if not os.path.exists(output_daily_dir):
