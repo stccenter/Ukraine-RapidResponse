@@ -1,0 +1,74 @@
+{
+"Ukraine":[
+    {"name":"Ukraine", 
+        "lon_west": 21.40, 
+        "lon_east": 41.01, 
+        "lat_south": 44.3, 
+        "lat_north": 52.6, 
+        "size": 10
+    },
+    {"name":"Kyiv", 
+        "lon_west": 30.12, 
+        "lon_east": 30.99, 
+        "lat_south": 50.16, 
+        "lat_north": 50.63,
+        "size": 10
+    },
+    {"name":"Kharkiv", 
+        "lon_west": 36.07, 
+        "lon_east": 36.50, 
+        "lat_south": 49.87, 
+        "lat_north": 50.12, 
+        "size": 20
+    },
+    {"name":"Mariupol", 
+        "lon_west": 37.43, 
+        "lon_east": 37.72, 
+        "lat_south": 47.01, 
+        "lat_north": 47.23, 
+        "size": 40
+    },
+    {"name":"Donetsk", 
+        "lon_west": 37.50, 
+        "lon_east": 38.02, 
+        "lat_south": 47.84, 
+        "lat_north": 48.09, 
+        "size": 40
+    },
+    {"name":"Luhansk", 
+        "lon_west": 39.17, 
+        "lon_east": 39.53, 
+        "lat_south": 48.47, 
+        "lat_north": 48.70, 
+        "size": 40
+    },
+    {"name":"Kherson", 
+        "lon_west": 32.51, 
+        "lon_east": 32.70, 
+        "lat_south": 46.59, 
+        "lat_north": 46.71, 
+        "size": 40
+    },
+    {"name":"Lviv", 
+        "lon_west": 23.86, 
+        "lon_east": 24.15, 
+        "lat_south": 49.72, 
+        "lat_north": 49.91, 
+        "size": 40
+    },
+    {"name":"Lutsk", 
+        "lon_west": 25.22, 
+        "lon_east": 25.47, 
+        "lat_south": 50.67, 
+        "lat_north": 50.81, 
+        "size": 40
+    },
+    {"name":"Ivano-Frankivsk", 
+        "lon_west": 24.64, 
+        "lon_east": 24.78, 
+        "lat_south": 48.85, 
+        "lat_north": 48.97, 
+        "size": 40
+    }
+]
+}
