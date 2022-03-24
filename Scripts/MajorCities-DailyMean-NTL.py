@@ -225,7 +225,7 @@ if __name__ == '__main__':
     print(before_sd, before_ed, after_sd, after_ed)
     
      # Indicate your input raw data and output folder
-    Data_infolder = './Data/Input/VIIRS-VNP46A2/'+year+'/'
+    Data_infolder = './Data/Input/VIIRS-VNP46A2/'+str(year)+'/'
     
     pt_change_list, city_admin = [], []
     lon_west, lon_east, lat_north, lat_south = 0.0, 0.0, 0.0, 0.0
