@@ -231,9 +231,9 @@ if __name__ == '__main__':
     lon_west, lon_east, lat_north, lat_south = 0.0, 0.0, 0.0, 0.0
     
     for city in major_cities:
-        output_daily_dir = './Data/Input/NC-Files/MajorCities/'+year+'/'+city+'/daily/'
-        output_period_dir = './Data/Input/NC-Files/MajorCities/'+year+'/'+city+'/period/'
-        output_period_diff = './Data/Input/NC-Files/MajorCities/'+year+'/'+city+'/difference/'
+        output_daily_dir = './Data/Input/NC-Files/MajorCities/'+str(year)+'/'+city+'/daily/'
+        output_period_dir = './Data/Input/NC-Files/MajorCities/'+str(year)+'/'+city+'/period/'
+        output_period_diff = './Data/Input/NC-Files/MajorCities/'+str(year)+'/'+city+'/difference/'
         
 
         if not os.path.exists(output_daily_dir):
