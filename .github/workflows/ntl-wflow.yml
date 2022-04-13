@@ -7,8 +7,8 @@ on:
       - main
 
 env:
-  start_date : '2022-03-04'
-  end_date: '2022-03-25'
+  start_date : '2022-03-05'
+  end_date: '2022-03-26'
   timedelta: 10
   year: 2022
   
