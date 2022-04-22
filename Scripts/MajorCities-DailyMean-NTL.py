@@ -8,6 +8,7 @@ matplotlib.use('Agg')
 import calendar
 from datetime import datetime, timedelta
 import geopandas as gpd
+import argparse
 
 def JulianDate_to_MMDDYYY(y,jd):
     month = 1
@@ -180,7 +181,6 @@ def GenerateDifference(pre_file, post_file):
 
 if __name__ == '__main__':
 
-
     shpfilepath = './Data/Input/Shapefiles/'
     major_cities = ['Chernihiv','Cherkasy','Chernivtsi','Donetsk','Dnipro','Ivano-Frankivsk','Kherson',\
         'Kharkiv','Kyiv','Khmelnytskyi','Kropyvnytskyi','Kryvyi Rih','Luhansk','Lutsk','Lviv',\
@@ -194,6 +194,7 @@ if __name__ == '__main__':
 
 #     start_date = datetime.strptime('2022-02-14', '%Y-%m-%d')
 #     end_date = datetime.strptime('2022-03-05', '%Y-%m-%d')
+    parser = argparse.ArgumentParser(description='Provide arguments.')
 
     parser.add_argument("-s", "--startdate", type=str, help="The Start Date - format YYYY-MM-DD", required=True)
     parser.add_argument("-e", "--enddate", type=str, help="Specify the start date.", required=True)
@@ -224,15 +225,15 @@ if __name__ == '__main__':
     print(before_sd, before_ed, after_sd, after_ed)
     
      # Indicate your input raw data and output folder
-    Data_infolder = './Data/Input/VIIRS-VNP46A2/'+year+'/'
+    Data_infolder = './Data/Input/VIIRS-VNP46A2/'+str(year)+'/'
     
     pt_change_list, city_admin = [], []
     lon_west, lon_east, lat_north, lat_south = 0.0, 0.0, 0.0, 0.0
     
     for city in major_cities:
-        output_daily_dir = './Data/Input/NC-Files/MajorCities/'+year+'/'+city+'/daily/'
-        output_period_dir = './Data/Input/NC-Files/MajorCities/'+year+'/'+city+'/period/'
-        output_period_diff = './Data/Input/NC-Files/MajorCities/'+year+'/'+city+'/difference/'
+        output_daily_dir = './Data/Input/NC-Files/MajorCities/'+str(year)+'/'+city+'/daily/'
+        output_period_dir = './Data/Input/NC-Files/MajorCities/'+str(year)+'/'+city+'/period/'
+        output_period_diff = './Data/Input/NC-Files/MajorCities/'+str(year)+'/'+city+'/difference/'
         
 
         if not os.path.exists(output_daily_dir):
