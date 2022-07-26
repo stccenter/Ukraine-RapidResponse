@@ -13,5 +13,9 @@
 8. In your terminal type the following: 	**wget --load-cookies /.urs_cookies --save-cookies /.urs_cookies --auth-no-challenge=on --keep-session-cookies --content-disposition -i <url.txt>**
 9. Delete the entire <url.txt> and replace it with the pathname you copied
 10. Run in your terminal. 
-
+11. Open finder(mac) and move the file from the general folder -> input -> present
+12. Next in the terminal type: **python Scripts/GeneratePresentDailyMean-1.py -s 2022-06-26 -e 2022-06-26**
+13. Replace the date listed(2022-06-2022) with the day your are downloading data for. 
+14. Run in your terminal
+15. Next go to your output folder and find the final file, upload where nessesary. 
 
