@@ -1,6 +1,7 @@
 # Ukraine-RapidResponse
 
 ## Steps to download Daily NO2 Data:
+    First follow setup terminal directions
 --------------------------------------
 1. Go to https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary
 2. Click the Subset/Get Data link located in the blue Data Acess box on the right-hand side of the screen
