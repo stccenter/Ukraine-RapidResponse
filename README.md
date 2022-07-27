@@ -20,3 +20,11 @@
 15. Next go to your output folder and find the final file, upload where nessesary
 16. Done!
 
+
+# How to download historical data
+1. Open the jupyter notebook located in the files section of the repository
+2. Change the date for the data you would like to download located in block 4
+3. Go to the top and click kernel --> Restart and Run All
+4. Once it has run, go to block 9 and click on the 3rd link (It should look like this:  https://acdisc.gesdisc.eosdis.nasa.gov/opendap/HDF-EOS5/Aura_OMI_Level3/OMNO2d.003/2014/OMI-Aura_L3-OMNO2d_2014m0703_v003-2019m1122t155950.he5.nc4?ColumnAmountNO2Trop,lat,lon)
+5. Go to downloads folder and move file where needed
+6. Done!
