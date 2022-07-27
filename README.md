@@ -21,7 +21,7 @@
 16. Done!
 
 
-# How to download historical data
+## How to download historical data
 1. Open the jupyter notebook located in the files section of the repository
 2. Change the date for the data you would like to download located in block 4
 3. Go to the top and click kernel --> Restart and Run All
