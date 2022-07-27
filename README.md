@@ -3,24 +3,33 @@
 ## Steps to download Daily NO2 Data:
     First follow setup terminal directions
 1. Go to https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary
+![Screen Shot 2022-07-27 at 11 56 06 AM](https://user-images.githubusercontent.com/47231057/181294364-b693f174-2d5a-47b0-a98e-691182c765f5.png)
 
 
 2. Click the Subset/Get Data link located in the blue Data Acess box on the right-hand side of the screen
-3. Under method options, click Refine Data Range and select the day you would like to download the data for
-4. Press the green get data button
-5. Click the 'Download Links List' in the popup window
-6. Next, check your downloads folder and find the document. ![Screen Shot 2022-07-27 at 11 59 27 AM](https://user-images.githubusercontent.com/47231057/181294212-53aae791-18ad-4c06-89e3-52641254ab7c.png)
 
-7. Right click on the document and get the pathname. This is different based on what kind of computer you use. For macs- hover over the copy name and click the option key. 
-8. In your terminal type the following: 	**wget --load-cookies /.urs_cookies --save-cookies /.urs_cookies --auth-no-challenge=on --keep-session-cookies --content-disposition -i <url.txt>**
-9. Delete the entire <url.txt> and replace it with the pathname you copied
-10. Run in your terminal. 
-11. Open finder(mac) or the equivalent file explorer, and move the file from the general folder -> input -> present
-12. Next in the terminal type: **python Scripts/GeneratePresentDailyMean-1.py -s 2022-06-26 -e 2022-06-26**
-13. Replace the date listed(2022-06-2022) with the day your are downloading data for
-14. Run in your terminal
-15. Next go to your output folder and find the final file, upload where nessesary
-16. Done!
+
+4. Under method options, click Refine Data Range and select the day you would like to download the data for
+![Screen Shot 2022-07-27 at 11 57 58 AM](https://user-images.githubusercontent.com/47231057/181294513-45e0b717-0126-4d4f-806b-e3cfb5933b70.png)
+
+
+6. Press the green get data button
+7. Click the 'Download Links List' in the popup window
+![Screen Shot 2022-07-27 at 11 58 12 AM](https://user-images.githubusercontent.com/47231057/181294473-ec0f4e3a-9596-4f93-b601-0165d453eee7.png)
+
+
+
+8. Next, check your downloads folder and find the document.
+9. Right click on the document and get the pathname. This is different based on what kind of computer you use. For macs- hover over the copy name and click the option key. 
+10. In your terminal type the following: 	**wget --load-cookies /.urs_cookies --save-cookies /.urs_cookies --auth-no-challenge=on --keep-session-cookies --content-disposition -i <url.txt>**
+11. Delete the entire <url.txt> and replace it with the pathname you copied
+12. Run in your terminal. 
+13. Open finder(mac) or the equivalent file explorer, and move the file from the general folder -> input -> present
+14. Next in the terminal type: **python Scripts/GeneratePresentDailyMean-1.py -s 2022-06-26 -e 2022-06-26**
+15. Replace the date listed(2022-06-2022) with the day your are downloading data for
+16. Run in your terminal
+17. Next go to your output folder and find the final file, upload where nessesary
+18. Done!
 
 --------------------------------------
 
