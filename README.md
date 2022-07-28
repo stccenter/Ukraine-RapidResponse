@@ -21,8 +21,7 @@
 
 8. Next, check your downloads folder and find the document.
 9. Right click on the document and get the pathname. This is different based on what kind of computer you use. For macs- hover over the copy name and click the option key. 
-10. In your terminal type the following: 	
-11. '''wget --load-cookies /.urs_cookies --save-cookies /.urs_cookies --auth-no-challenge=on --keep-session-cookies --content-disposition -i <url.txt>'''
+10. In your terminal type the following: ***wget --load-cookies /.urs_cookies --save-cookies /.urs_cookies --auth-no-challenge=on --keep-session-cookies --content-disposition -i <url.txt>***
 14. Delete the entire <url.txt> and replace it with the pathname you copied
 15. Run in your terminal. 
 16. Open finder(mac) or the equivalent file explorer, and move the file from the general folder -> input -> present
