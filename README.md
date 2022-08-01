@@ -1,6 +1,6 @@
 # Ukraine-RapidResponse
 
-## Steps to download Daily NO2 Data:
+## Steps to download OMI Daily NO2 Data:
     First follow setup terminal directions
 1. Go to https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary
 ![Screen Shot 2022-07-27 at 11 56 06 AM](https://user-images.githubusercontent.com/47231057/181294364-b693f174-2d5a-47b0-a98e-691182c765f5.png)
@@ -46,7 +46,7 @@
 ## Table
 
 |Period| Satellite | Latest |
-| ----------- | ----------- |
+| ------|----- | ----------- |
 | 2022 | OMI-NO2 | xxx|
 | 2022 | Tropomi-NO2 | xxx|
 |History(2012-2022)|OMI-NO2|xxx|  
