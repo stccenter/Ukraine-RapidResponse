@@ -11,6 +11,13 @@
 
 ## Steps to download OMI Daily NO2 Data:
     First follow setup terminal directions
+    
+1a. create account on Earth :
+    https://urs.earthdata.nasa.gov
+    
+1b. Follow steps for downloading data using wget:
+    https://disc.gsfc.nasa.gov/data-access#mac_linux_wget
+
 1. Go to https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary
 ![Screen Shot 2022-07-27 at 11 56 06 AM](https://user-images.githubusercontent.com/47231057/181294364-b693f174-2d5a-47b0-a98e-691182c765f5.png)
 
@@ -35,7 +42,7 @@
 ```wget --load-cookies /.urs_cookies --save-cookies /.urs_cookies --auth-no-challenge=on --keep-session-cookies --content-disposition -i <url.txt>```
 
 11. Run in your terminal. 
-12. Open finder(mac) or the equivalent file explorer, and move the file from the general folder -> input -> present
+12. Open finder(mac) or the equivalent file explorer, and move the file from the general folder -> input -> present--(modify to change to wd)
 13. Next in the terminal type: **python Scripts/GeneratePresentDailyMean-1.py -s 2022-06-26 -e 2022-06-26**
 14. Replace the date listed(2022-06-2022) with the day your are downloading data for
 15. Run in your terminal
