@@ -1,5 +1,14 @@
 # Ukraine-RapidResponse
 
+
+## Daily Data Download
+
+|Pollutant|Period| Satellite | Latest |
+|--------|----|----- | ----------- |
+| NO2|2022 | OMI-NO2 | xxx|
+| NO2|2022 | Tropomi-NO2 | xxx|
+|NO2|History(2012-2022)|OMI-NO2|xxx|  
+
 ## Steps to download OMI Daily NO2 Data:
     First follow setup terminal directions
 1. Go to https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary
@@ -21,8 +30,10 @@
 
 8. Next, check your downloads folder and find the document.
 9. Right click on the document and get the pathname. This is different based on what kind of computer you use. For macs- hover over the copy name and click the option key. 
-10. In your terminal type the following. Replace the <url.txt> and replace it with the pathname you copied
+10. In your terminal type the following. Replace the <url.txt> and replace it with the pathname you copied.
+
 ```wget --load-cookies /.urs_cookies --save-cookies /.urs_cookies --auth-no-challenge=on --keep-session-cookies --content-disposition -i <url.txt>```
+
 11. Run in your terminal. 
 12. Open finder(mac) or the equivalent file explorer, and move the file from the general folder -> input -> present
 13. Next in the terminal type: **python Scripts/GeneratePresentDailyMean-1.py -s 2022-06-26 -e 2022-06-26**
@@ -34,19 +45,10 @@
 --------------------------------------
 
 
-## How to download historical data
+## How to download OMI historical data
 1. Open the jupyter notebook located in the files section of the repository
 2. Change the date for the data you would like to download located in block 4
 3. Go to the top and click kernel --> Restart and Run All
 4. Once it has run, go to block 9 and click on the 3rd link (It should look like this:  https://acdisc.gesdisc.eosdis.nasa.gov/opendap/HDF-EOS5/Aura_OMI_Level3/OMNO2d.003/2014/OMI-Aura_L3-OMNO2d_2014m0703_v003-2019m1122t155950.he5.nc4?ColumnAmountNO2Trop,lat,lon)
 5. Go to downloads folder and move file where needed
 6. Done!
-
-
-## Table
-
-|Period| Satellite | Latest |
-| ------|----- | ----------- |
-| 2022 | OMI-NO2 | xxx|
-| 2022 | Tropomi-NO2 | xxx|
-|History(2012-2022)|OMI-NO2|xxx|  
