@@ -18,7 +18,7 @@
 1b. Follow steps for downloading data using wget:
     https://disc.gsfc.nasa.gov/data-access#mac_linux_wget
 
-1. Go to https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary
+1c. Go to https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary
 ![Screen Shot 2022-07-27 at 11 56 06 AM](https://user-images.githubusercontent.com/47231057/181294364-b693f174-2d5a-47b0-a98e-691182c765f5.png)
 
 
