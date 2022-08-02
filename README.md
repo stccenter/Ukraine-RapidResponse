@@ -3,11 +3,11 @@
 
 ## Daily Data Download
 
-|Pollutant|Period| Satellite | Latest |
-|--------|----|----- | ----------- |
-| NO2|2022 | OMI-NO2 | 2022-07-19|
-| NO2|2022 | Tropomi-NO2 | 2022-06-27|
-|NO2|History(2012-2022)|OMI-NO2|xxx|  
+|Pollutant|Period|Source| Satellite | Latest |
+|--------|-----|----|----- | ----------- |
+| NO2|2022 | https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary|OMI-NO2 | 2022-07-19|
+| NO2|2022 | https://disc.gsfc.nasa.gov/datasets/S5P_L2__NO2____HiR_2/summary?keywords=S5P_L2__NO2|Tropomi-NO2 | 2022-06-27|
+|NO2|History(2012-2022)|https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary|OMI-NO2|xxx|  
 
 ## Steps to download OMI Daily NO2 Data:
     First follow setup terminal directions
