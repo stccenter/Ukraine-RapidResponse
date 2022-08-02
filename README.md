@@ -5,8 +5,8 @@
 
 |Pollutant|Period| Satellite | Latest |
 |--------|----|----- | ----------- |
-| NO2|2022 | OMI-NO2 | xxx|
-| NO2|2022 | Tropomi-NO2 | xxx|
+| NO2|2022 | OMI-NO2 | 2022-07-19|
+| NO2|2022 | Tropomi-NO2 | 2022-06-27|
 |NO2|History(2012-2022)|OMI-NO2|xxx|  
 
 ## Steps to download OMI Daily NO2 Data:
