@@ -14,9 +14,9 @@
 |Pollutant|Source|Spatial Extent|Spatial Res|Temporal Res|Temporal Extent|Short Name | Level | Link|
 |--------|-----|----|----|-----|-----|-----|-----|----------- |
 |O3|Sentinel TROPOMI|-180.0,-90.0,180.0,90.0|5.5 km x 3.5 km|101.5 minutes|2020-07-13 to 2022-08-07|S5P_L2__O3_TOT_HiR|L2|https://www.google.com/url?q=https://disc.gsfc.nasa.gov/datasets/S5P_L2__O3_TOT_HiR_2/summary?keywords%3DS5P_L2__O3&sa=D&source=editors&ust=1660156936974980&usg=AOvVaw041YZ-sLdoQ5-vjzRf062U|
-|O3|OMI|-180.0,-90.0,180.0,90.0|0.25 ° x 0.25 °|1 day|2004-10-01 to  2022-08-09|OMTO3G|L2|https://www.google.com/url?q=https://disc.gsfc.nasa.gov/datasets/OMTO3G_003/summary?keywords%3Daura&sa=D&source=editors&ust=1660156936983179&usg=AOvVaw1YyRv1zWv_l9QetRViXhN0|
+|O3|OMI|-180.0,-90.0,180.0,90.0|0.25° x 0.25°|1 day|2004-10-01 to  2022-08-09|OMTO3G|L2|https://www.google.com/url?q=https://disc.gsfc.nasa.gov/datasets/OMTO3G_003/summary?keywords%3Daura&sa=D&source=editors&ust=1660156936983179&usg=AOvVaw1YyRv1zWv_l9QetRViXhN0|
 |S02|Sentinel TROPOMI|-180.0,-90.0,180.0,90.0|5.5 km x 3.5 km|101.5 minutes|2020-07-13 to 2022-08-07|S5P_L2__SO2____HiR|L2|https://www.google.com/url?q=https://disc.gsfc.nasa.gov/datasets/S5P_L2__SO2____HiR_2/summary?keywords%3DSO2%2520sentinal&sa=D&source=editors&ust=1660156936978300&usg=AOvVaw0bx_6r_pUIZwVr5YLR84KB|
-|SO2|OMI|-180.0,-90.0,180.0,90.0|5.5 km x 3.5 km|1 day|2004-10-01 to  2022-08-09|OMSO2G|L2|https://www.google.com/url?q=https://disc.gsfc.nasa.gov/datasets/OMSO2G_003/summary?keywords%3DSulphur%2520Dioxide&sa=D&source=editors&ust=1660156936980670&usg=AOvVaw08rjswE4UVcV8g6i3pGM6h|
+|SO2|OMI|-180.0,-90.0,180.0,90.0|0.25° x 0.25°|1 day|2004-10-01 to  2022-08-09|OMSO2G|L2|https://www.google.com/url?q=https://disc.gsfc.nasa.gov/datasets/OMSO2G_003/summary?keywords%3DSulphur%2520Dioxide&sa=D&source=editors&ust=1660156936980670&usg=AOvVaw08rjswE4UVcV8g6i3pGM6h|
 
 ## Steps to download OMI Daily NO2 Data:
     First follow setup terminal directions
