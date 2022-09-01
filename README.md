@@ -8,7 +8,7 @@
 | NO2|2022 | https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary|OMI-NO2 | 2022-08-29|
 | NO2|2022 | https://disc.gsfc.nasa.gov/datasets/S5P_L2__NO2____HiR_2/summary?keywords=S5P_L2__NO2|Tropomi-NO2 | 2022-08-22|
 |NO2|History(2012-2022)|https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary|OMI-NO2|xxx|  
-| SO2|2022 | update this link|OMI-SO2 | 2022-08-29|
+| SO2|2022 | update this link|OMI-SO2 | xxx|
 
 
 ## Data Sources table
