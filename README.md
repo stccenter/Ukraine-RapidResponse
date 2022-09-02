@@ -3,16 +3,17 @@
 
 ## Daily Data Download
 
-|Pollutant|Period|Source| Satellite | Latest |
+|Pollutant|Period| Satellite |Source | Latest |
 |--------|-----|----|----- | ----------- |
-| NO2|2022 | https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary|OMI-NO2 | 2022-08-29|
-| NO2|2022 | https://disc.gsfc.nasa.gov/datasets/S5P_L2__NO2____HiR_2/summary?keywords=S5P_L2__NO2|Tropomi-NO2 | 2022-08-22|
-|NO2|History(2012-2022)|https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary|OMI-NO2|xxx|  
-| SO2|2022 | https://disc.gsfc.nasa.gov/datasets/OMSO2G_003/summary?keywords=Sulphur%20Dioxide |OMI-SO2 | 2022-08-31|
-|SO2|2022| https://disc.gsfc.nasa.gov/datasets/S5P_L2__SO2____HiR_2/summary?keywords=SO2%20sentinel | Tropomi-SO2| 2022-08-29|
-| SO2 | History(2012-2022) | https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary | OMI-SO2 | xxx |  
-|O3|2022|https://www.google.com/url?q=https://disc.gsfc.nasa.gov/datasets/S5P_L2__O3_TOT_HiR_2/summary?keywords%3DS5P_L2__O3&sa=D&source=editors&ust=1660156936974980&usg=AOvVaw041YZ-sLdoQ5-vjzRf062U| Tropomi-O3|2022-08-29|
-|O3|2022|https://www.google.com/url?q=https://disc.gsfc.nasa.gov/datasets/OMTO3G_003/summary?keywords%3Daura&sa=D&source=editors&ust=1660156936983179&usg=AOvVaw1YyRv1zWv_l9QetRViXhN0| OMI-O3|2022-09-01|
+| NO2|2022 | OMI-NO2 | [Link]https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary| 2022-08-29|
+| NO2|2022 | Tropomi-NO2 |https://disc.gsfc.nasa.gov/datasets/S5P_L2__NO2____HiR_2/summary?keywords=S5P_L2__NO2|2022-08-22|
+|NO2|History(2012-2021)| |OMI-NO2 |https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary|xxx|  
+| SO2|2022 | OMI-SO2 | https://disc.gsfc.nasa.gov/datasets/OMSO2G_003/summary?keywords=Sulphur%20Dioxide | 2022-08-31|
+|SO2|2022| Tropomi-SO2 | https://disc.gsfc.nasa.gov/datasets/S5P_L2__SO2____HiR_2/summary?keywords=SO2%20sentinel | 2022-08-29|
+| SO2 | History(2012-2021) | OMI-SO2 |https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary | xxx |  
+|O3|2022| OMI-O3|  https://disc.gsfc.nasa.gov/datasets/OMTO3G_003/summary?keywords=aura |2022-08-29|
+|O3|2022| Tropomi-O3 | https://disc.gsfc.nasa.gov/datasets/S5P_L2__O3_TOT_HiR_2/summary?keywords=S5P_L2__O3 |2022-09-01|
+|O3| History(2012-2021) | OMI-O3 | https://disc.gsfc.nasa.gov/datasets/OMTO3G_003/summary?keywords=aura | xxx |  
 
 
 ## Data Sources table
