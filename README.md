@@ -11,7 +11,7 @@
 | SO2 |2022 | OMI-SO2 | [Link](https://disc.gsfc.nasa.gov/datasets/OMSO2G_003/summary?keywords=Sulphur%20Dioxide) |2022-09-03|
 | SO2 |2022| Tropomi-SO2 | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__SO2____HiR_2/summary?keywords=SO2%20sentinel) |2022-09-01|
 | SO2 | History(2012-2021) | OMI-SO2 | [Link](https://disc.gsfc.nasa.gov/datasets/OMSO2G_003/summary?keywords=Sulphur%20Dioxide) | xxx |  
-| O3 |2022| OMI-O3|  [Link](https://disc.gsfc.nasa.gov/datasets/OMTO3G_003/summary?keywords=aura) | 2022-09-03|
+| O3 |2022| OMI-O3|  [Link](https://disc.gsfc.nasa.gov/datasets/OMTO3G_003/summary?keywords=aura) | 2022-09-05|
 | O3 |2022| Tropomi-O3 | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__O3_TOT_HiR_2/summary?keywords=S5P_L2__O3) |2022-09-01|
 | O3 | History(2012-2021) | OMI-O3 | [Link](https://disc.gsfc.nasa.gov/datasets/OMTO3G_003/summary?keywords=aura) | xxx |  
 
