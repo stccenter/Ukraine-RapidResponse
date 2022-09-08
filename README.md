@@ -7,6 +7,8 @@
 |--------|-----|----|----- | ----------- |
 | NO2 |2022 | OMI-NO2 | [Link](https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary) | 2022-09-06|
 | NO2 |2022 | Tropomi-NO2 | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__NO2____HiR_2/summary?keywords=S5P_L2__NO2) |2022-08-28|
+| NO2 |2019-2021(Version 1)| Tropomi-NO2| [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__NO2____HiR_1/summary?keywords=S5P_L2__NO2____HiR)|2021-07-01
+|NO2| 2021-2022(Version 2)| Tropomi-NO2| [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__NO2____HiR_2/summary?keywords=S5P_L2__NO2____HiR)|2022-08-28
 | NO2 |History(2012-2021)| OMI-NO2 | [Link](https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary) |xxx|  
 | SO2 |2022 | OMI-SO2 | [Link](https://disc.gsfc.nasa.gov/datasets/OMSO2G_003/summary?keywords=Sulphur%20Dioxide) |2022-09-06|
 | SO2 |2022| Tropomi-SO2 | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__SO2____HiR_2/summary?keywords=SO2%20sentinel) |2022-09-04|
