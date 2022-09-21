@@ -34,8 +34,8 @@
     <td rowspan="8">Daily</td>
 	 <td rowspan="4">OMI</td>
      <td>NO2</td>
-     <td>xx</td>
-     <td>xx</td>
+     <td>September 18</td>
+     <td>December 31</td>
      <td>xx</td>
      <td>xx</td>
      <td>xx</td>
@@ -102,8 +102,8 @@
     <td rowspan="8">Weekly</td>
      <td rowspan="4">OMI</td>
      <td>NO2</td>
-     <td>xx</td>
-     <td>xx</td>
+     <td>June 04</td>
+     <td>December 25</td>
      <td>xx</td>
      <td>xx</td>
      <td>xx</td>
@@ -136,7 +136,7 @@
     <td rowspan="4">Tropomi</td>
     <td>NO2</td>
     <td>April 23</td>
-    <td>xx</td>
+    <td>December 25</td>
     <td>xx</td>
     <td>xx</td>
     <td>xx</td>
@@ -158,7 +158,7 @@
     <td>xx</td>
   </tr>
     <tr>
-  	<td>CH4</td>
+    <td>CH4</td>
     <td>xx</td>
     <td>xx</td>
     <td>xx</td>
