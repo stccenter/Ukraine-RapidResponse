@@ -165,9 +165,6 @@
     <td>xx</td>
     <td>xx</td>
   </tr>
-  
-  
- 
 </table>
 
 ## Data Sources table
