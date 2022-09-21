@@ -30,16 +30,23 @@
     <th>2020</th>
     <th>2019</th>
     <th>2018</th>
+    <th>2017</th>
+    <th>2016</th>
+	  <th>2015</th>
+	  <th>2014</th>
+	  <th>2013</th>
+	  <th>2012</th>
   </tr>
   <tr>
     <td rowspan="8">Daily</td>
-	 <td rowspan="4">OMI</td>
+     <td rowspan="4">OMI</td>
      <td>NO2</td>
      <td>September 18</td>
      <td>December 31</td>
      <td>xx</td>
      <td>xx</td>
      <td>xx</td>
+	  <td></td>
   </tr>
   <tr>
   	<td>SO2</td>
