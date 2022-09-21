@@ -26,6 +26,8 @@
   </tr>
   <tr>
     <td  rowspan="2">Daily</td>
+    <td> Tropomi </td>
+    <td> OMI </td>
   </tr>
 </table>
 
