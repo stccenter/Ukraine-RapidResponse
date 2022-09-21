@@ -74,7 +74,7 @@
     <td>xx</td>
   </tr>
   <tr>
-  	<td>SO2</td>
+  <td>SO2</td>
     <td>xx</td>
     <td>xx</td>
     <td>xx</td>
@@ -100,7 +100,7 @@
   
   <tr>
     <td rowspan="8">Weekly</td>
-	 <td rowspan="4">OMI</td>
+     <td rowspan="4">OMI</td>
      <td>NO2</td>
      <td>xx</td>
      <td>xx</td>
@@ -109,7 +109,7 @@
      <td>xx</td>
   </tr>
   <tr>
-  	<td>SO2</td>
+    <td>SO2</td>
     <td>xx</td>
     <td>xx</td>
     <td>xx</td>
@@ -135,7 +135,7 @@
   <tr>
     <td rowspan="4">Tropomi</td>
     <td>NO2</td>
-    <td>xx</td>
+    <td>April 23</td>
     <td>xx</td>
     <td>xx</td>
     <td>xx</td>
