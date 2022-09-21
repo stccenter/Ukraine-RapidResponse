@@ -21,11 +21,11 @@
 
 <table>
   <tr>
-    <td>One</td>
-    <td>Two</td>
+    <td>Temporal</td>
+    <td>Satellite</td>
   </tr>
   <tr>
-    <td colspan="2">Temporal</td>
+    <td  rowspan="2">Daily</td>
   </tr>
 </table>
 
