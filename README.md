@@ -18,11 +18,6 @@
 | O3 |2022| Tropomi-O3 | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__O3_TOT_HiR_2/summary?keywords=S5P_L2__O3) |2022-09-18|
 
 ## Air pollutants processing status
-|Pollutant|Period| Satellite | Temporal | Latest |
-|--------|-----|----|----- | ----------- | -------- |
-| NO2 |2022 | OMI-NO2 | Daily |  xxx   |
-| NO2 |
-
 
 <table>
   <tr>
@@ -30,7 +25,7 @@
     <td>Two</td>
   </tr>
   <tr>
-    <td colspan="2">Three</td>
+    <td colspan="2">Temporal</td>
   </tr>
 </table>
 
