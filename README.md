@@ -41,7 +41,7 @@
     <td rowspan="8">Daily</td>
      <td rowspan="4">OMI</td>
      <td>NO2</td>
-     <td>September 18</td>
+     <td>September 23</td>
      <td>December 31</td>
      <td>xx</td>
      <td>xx</td>
@@ -56,7 +56,7 @@
   </tr>
   <tr>
   	<td>SO2</td>
-    <td>xx</td>
+    <td>September 25</td>
     <td>xx</td>
     <td>xx</td>
     <td>xx</td>
@@ -70,7 +70,7 @@
   </tr>
     <tr>
   	<td>O3</td>
-    <td>xx</td>
+    <td>September 25</td>
     <td>xx</td>
     <td>xx</td>
     <td>xx</td>
@@ -99,7 +99,7 @@
   <tr>
     <td rowspan="4">Tropomi</td>
     <td>NO2</td>
-    <td>xx</td>
+    <td>September 17</td>
     <td>xx</td>
     <td>xx</td>
     <td>xx</td>
@@ -113,7 +113,7 @@
   </tr>
   <tr>
   <td>SO2</td>
-    <td>xx</td>
+    <td>September 24</td>
     <td>xx</td>
     <td>xx</td>
     <td>xx</td>
@@ -127,7 +127,7 @@
   </tr>
     <tr>
   	<td>O3</td>
-    <td>xx</td>
+    <td>September 24</td>
     <td>xx</td>
     <td>xx</td>
     <td>xx</td>
