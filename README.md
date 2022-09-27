@@ -56,7 +56,7 @@
   </tr>
   <tr>
   	<td>SO2</td>
-    <td>September 25</td>
+    <td></td>
     <td>xx</td>
     <td>xx</td>
     <td>xx</td>
@@ -70,7 +70,7 @@
   </tr>
     <tr>
   	<td>O3</td>
-    <td>September 25</td>
+    <td></td>
     <td>xx</td>
     <td>xx</td>
     <td>xx</td>
@@ -113,7 +113,7 @@
   </tr>
   <tr>
   <td>SO2</td>
-    <td>September 24</td>
+    <td></td>
     <td>xx</td>
     <td>xx</td>
     <td>xx</td>
@@ -127,7 +127,7 @@
   </tr>
     <tr>
   	<td>O3</td>
-    <td>September 24</td>
+    <td></td>
     <td>xx</td>
     <td>xx</td>
     <td>xx</td>
