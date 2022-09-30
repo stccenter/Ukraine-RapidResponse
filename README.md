@@ -218,57 +218,57 @@
     <td>NO2</td>
     <td>September 10</td>
     <td>December 25</td>
-    <td>xx</td>
-    <td>xx</td>
-    <td>xx</td>
-	   <td>xx</td>
-	   <td>xx</td>
-	   <td>xx</td>
-	   <td>xx</td>
-	   <td>xx</td>
-	   <td>xx</td>
+    <td></td>
+    <td></td>
+    <td></td>
+	   <td></td>
+	   <td></td>
+	   <td></td>
+	   <td></td>
+	   <td></td>
+	   <td></td>
   </tr>
   <tr>
   	<td>SO2</td>
-    <td>xx</td>
-    <td>xx</td>
-    <td>xx</td>
-    <td>xx</td>
-    <td>xx</td>
-	   <td>xx</td>
-	   <td>xx</td>
-	   <td>xx</td>
-	   <td>xx</td>
-	   <td>xx</td>
-	   <td>xx</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+	   <td></td>
+	   <td></td>
+	   <td></td>
+	   <td></td>
+	   <td></td>
+	   <td></td>
   </tr>
     <tr>
   	<td>O3</td>
-    <td>xx</td>
-    <td>xx</td>
-    <td>xx</td>
-    <td>xx</td>
-    <td>xx</td>
-	     <td>xx</td>
-	     <td>xx</td>
-	     <td>xx</td>
-	     <td>xx</td>
-	     <td>xx</td>
-	     <td>xx</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+	     <td></td>
+	     <td></td>
+	     <td></td>
+	     <td></td>
+	     <td></td>
+	     <td></td>
   </tr>
     <tr>
     <td>CH4</td>
-    <td>xx</td>
-    <td>xx</td>
-    <td>xx</td>
-    <td>xx</td>
-    <td>xx</td>
-	     <td>xx</td>
-	     <td>xx</td>
-	     <td>xx</td>
-	     <td>xx</td>
-	     <td>xx</td>
-	     <td>xx</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+	     <td></td>
+	     <td></td>
+	     <td></td>
+	     <td></td>
+	     <td></td>
+	     <td></td>
   </tr>
 </table>
 
