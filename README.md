@@ -5,21 +5,21 @@
 
 |Pollutant|Period| Satellite |Source | Level |Latest |
 |--------|-----|----|----- |--------|----------- |
-| NO2 |2022 | OMI | [Link](https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary) | Level 3 | 2022-10-15|
+| NO2 |2022 | OMI | [Link](https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary) | Level 3 | 2022-10-16|
 | NO2 |History(2012-2021)| OMI | [Link](https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary) | Level 3 |2021-12-31|
-| NO2 |2022 | Tropomi | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__NO2____HiR_2/summary?keywords=S5P_L2__NO2) | Level 2 | 2022-10-09|
+| NO2 |2022 | Tropomi | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__NO2____HiR_2/summary?keywords=S5P_L2__NO2) | Level 2 | 2022-10-10|
 | NO2 |Historical 2021(Version 1)| Tropomi| [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__NO2____HiR_1/summary?keywords=S5P_L2__NO2____HiR)| Level 2 |2021-07-01|
 | NO2 | Historical 2021(Version 2)| Tropomi| [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__NO2____HiR_2/summary?keywords=S5P_L2__NO2____HiR)| Level 2 |2021-12-31|
 |--------|-----|----|----- |--------|----------- |
-| SO2 |2022 | OMI | [Link](https://disc.gsfc.nasa.gov/datasets/OMSO2e_003/summary?keywords=omso2)|  Level 3 | 2022-10-14|
+| SO2 |2022 | OMI | [Link](https://disc.gsfc.nasa.gov/datasets/OMSO2e_003/summary?keywords=omso2)|  Level 3 | 2022-10-15|
 | SO2 | History(2012-2021) | OMI | [Link](https://disc.gsfc.nasa.gov/datasets/OMSO2e_003/summary?keywords=omso2) |  Level 3 | 2012-12-31 |  
-| SO2 |2022| Tropomi | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__SO2____HiR_2/summary?keywords=SO2%20sentinel) |  Level 2 |2022-10-15|
+| SO2 |2022| Tropomi | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__SO2____HiR_2/summary?keywords=SO2%20sentinel) |  Level 2 |2022-10-16|
 | SO2 |2022 | OMI | [Link](https://disc.gsfc.nasa.gov/datasets/OMSO2G_003/summary?keywords=Sulphur%20Dioxide)| Level 2 |2022-10-15|
 |--------|-----|----|----- |--------|----------- |
-| O3 |2022| OMI|  [Link](https://disc.gsfc.nasa.gov/datasets/OMTO3G_003/summary?keywords=aura) |  |2022-10-16|
+| O3 |2022| OMI|  [Link](https://disc.gsfc.nasa.gov/datasets/OMTO3G_003/summary?keywords=aura) |  |2022-10-18|
 | O3 | History(2012-2021) | OMI | [Link](https://disc.gsfc.nasa.gov/datasets/OMTO3G_003/summary?keywords=aura) |  | 2012-12-31 |  
-| O3 |2022| Tropomi | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__O3_TOT_HiR_2/summary?keywords=S5P_L2__O3) |  |2022-10-15|
-| CH4 |2022| Tropomi | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__CH4____HiR_2/summary?keywords=S5p%20ch4) |  |2022-09-19|
+| O3 |2022| Tropomi | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__O3_TOT_HiR_2/summary?keywords=S5P_L2__O3) |  |2022-10-17|
+| CH4 |2022| Tropomi | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__CH4____HiR_2/summary?keywords=S5p%20ch4) |  |2022-10-17|
 
 ## Air pollutants processing status
 
@@ -44,7 +44,7 @@
     <td rowspan="8">Daily</td>
      <td rowspan="4">OMI</td>
      <td>NO2</td>
-     <td>September 24</td>
+     <td>October 16th</td>
      <td>December 31</td>
      <td>December 31</td>
      <td>December 31</td>
@@ -59,7 +59,7 @@
   </tr>
   <tr>
   	<td>SO2</td>
-    <td></td>
+    <td>October 15th</td>
     <td></td>
     <td></td>
     <td></td>
@@ -73,7 +73,7 @@
   </tr>
     <tr>
   	<td>O3</td>
-    <td></td>
+    <td>October 18th</td>
     <td></td>
     <td></td>
     <td></td>
@@ -102,7 +102,7 @@
   <tr>
     <td rowspan="4">Tropomi</td>
     <td>NO2</td>
-    <td>September 18</td>
+    <td>October 10th</td>
     <td>December 31</td>
     <td></td>
     <td></td>
@@ -116,7 +116,7 @@
   </tr>
   <tr>
   <td>SO2</td>
-    <td></td>
+    <td>October 16th</td>
     <td></td>
     <td></td>
     <td></td>
@@ -130,7 +130,7 @@
   </tr>
     <tr>
   	<td>O3</td>
-    <td></td>
+    <td>October 17th</td>
     <td></td>
     <td></td>
     <td></td>
@@ -144,7 +144,7 @@
   </tr>
     <tr>
   	<td>CH4</td>
-    <td></td>
+    <td>October 17th</td>
     <td></td>
     <td></td>
     <td></td>
