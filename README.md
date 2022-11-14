@@ -44,7 +44,7 @@
     <td rowspan="8">Daily</td>
      <td rowspan="4">OMI</td>
      <td>NO2</td>
-     <td>November 11th </td>
+     <td>November 8th </td>
      <td>December 31</td>
      <td>December 31</td>
      <td>December 31</td>
@@ -59,7 +59,7 @@
   </tr>
   <tr>
   	<td>SO2</td>
-    <td>November 11th</td>
+    <td>November 8th</td>
     <td>December 31st</td>
     <td>December 31st</td>
     <td>December 31st</td>
