@@ -44,7 +44,7 @@
     <td rowspan="8">Daily</td>
      <td rowspan="4">OMI</td>
      <td>NO2</td>
-     <td>October 22nd</td>
+     <td>November 11th </td>
      <td>December 31</td>
      <td>December 31</td>
      <td>December 31</td>
@@ -59,31 +59,31 @@
   </tr>
   <tr>
   	<td>SO2</td>
-    <td>October 15th</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-	   <td></td>
-	   <td></td>
-	   <td></td>
-	   <td></td>
-	   <td></td>
-	   <td></td>
+    <td>November 11th</td>
+    <td>December 31st</td>
+    <td>December 31st</td>
+    <td>December 31st</td>
+    <td>December 31st</td>
+	   <td>December 31st</td>
+	   <td>December 31st</td>
+	   <td>December 31st</td>
+	   <td>December 31st</td>
+	   <td>December 31st</td>
+	   <td>December 31st</td>
   </tr>
     <tr>
   	<td>O3</td>
-    <td>October 18th</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-	     <td></td>
-	     <td></td>
-	     <td></td>
-	     <td></td>
-	     <td></td>
-	     <td></td>
+    <td>November 12th</td>
+    <td>December 31st</td>
+    <td>December 31st</td>
+    <td>December 31st</td>
+    <td>December 31st</td>
+	     <td>December 31st</td>
+	     <td>December 31st</td>
+	     <td>December 31st</td>
+	     <td>December 31st</td>
+	     <td>December 31st</td>
+	     <td>December 31st</td>
   </tr>
     <tr>
   	<td>CH4</td>
@@ -102,7 +102,7 @@
   <tr>
     <td rowspan="4">Tropomi</td>
     <td>NO2</td>
-    <td>October 10th</td>
+    <td>November 4th</td>
     <td>December 31</td>
     <td></td>
     <td></td>
@@ -116,7 +116,7 @@
   </tr>
   <tr>
   <td>SO2</td>
-    <td>October 16th</td>
+    <td>November 11th</td>
     <td></td>
     <td></td>
     <td></td>
@@ -130,7 +130,7 @@
   </tr>
     <tr>
   	<td>O3</td>
-    <td>October 17th</td>
+    <td>November 12th</td>
     <td></td>
     <td></td>
     <td></td>
@@ -144,7 +144,7 @@
   </tr>
     <tr>
   	<td>CH4</td>
-    <td>October 17th</td>
+    <td>November 12th</td>
     <td></td>
     <td></td>
     <td></td>
@@ -161,7 +161,7 @@
     <td rowspan="8">Weekly</td>
      <td rowspan="4">OMI</td>
      <td>NO2</td>
-     <td>September 10</td>
+     <td>November 11th</td>
      <td>December 25</td>
      <td>December 26</td>
      <td>December 28</td>
@@ -175,7 +175,7 @@
   </tr>
   <tr>
     <td>SO2</td>
-    <td></td>
+    <td>November 11th</td>
     <td></td>
     <td></td>
     <td></td>
@@ -189,7 +189,7 @@
   </tr>
     <tr>
   	<td>O3</td>
-    <td></td>
+    <td>Novemebr 11th</td>
     <td></td>
     <td></td>
     <td></td>
