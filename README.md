@@ -158,7 +158,7 @@
   </tr>
   
   <tr>
-    <td rowspan="8">Weekly</td>
+    <td rowspan="8">Weekly (based on war start date 2022-02-25)</td>
      <td rowspan="4">OMI</td>
      <td>NO2</td>
      <td>November 11th</td>
