@@ -73,7 +73,7 @@
   </tr>
     <tr>
   	<td>O3</td>
-    <td>November 12th</td>
+    <td>November 8th</td>
     <td>December 31st</td>
     <td>December 31st</td>
     <td>December 31st</td>
