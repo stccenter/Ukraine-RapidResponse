@@ -16,7 +16,7 @@
 | SO2 |2022| Tropomi | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__SO2____HiR_2/summary?keywords=SO2%20sentinel) |  Level 2 | 2022-11-11|
 | SO2 |2022 | OMI | [Link](https://disc.gsfc.nasa.gov/datasets/OMSO2G_003/summary?keywords=Sulphur%20Dioxide)| Level 2 |2022-11-12|
 |--------|-----|----|----- |--------|----------- |
-| O3 |2022| OMI|  [Link](https://disc.gsfc.nasa.gov/datasets/OMTO3G_003/summary?keywords=aura) |  |2022-11-12|
+| O3 |2022| OMI|  [Link](https://disc.gsfc.nasa.gov/datasets/OMTO3G_003/summary?keywords=aura) |  |2022-11-26|
 | O3 | History(2012-2021) | OMI | [Link](https://disc.gsfc.nasa.gov/datasets/OMTO3G_003/summary?keywords=aura) |  | 2012-12-31 |  
 | O3 |2022| Tropomi | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__O3_TOT_HiR_2/summary?keywords=S5P_L2__O3) |  | 2022-11-12|
 | CH4 |2022| Tropomi | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__CH4____HiR_2/summary?keywords=S5p%20ch4) |  | 2022-11-12|
