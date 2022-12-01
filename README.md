@@ -11,7 +11,7 @@
 | NO2 |Historical 2021(Version 1)| Tropomi| [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__NO2____HiR_1/summary?keywords=S5P_L2__NO2____HiR)| Level 2 |2021-07-01|
 | NO2 | Historical 2021(Version 2)| Tropomi| [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__NO2____HiR_2/summary?keywords=S5P_L2__NO2____HiR)| Level 2 |2021-12-31|
 |--------|-----|----|----- |--------|----------- |
-| SO2 |2022 | OMI | [Link](https://disc.gsfc.nasa.gov/datasets/OMSO2e_003/summary?keywords=omso2)|  Level 3 |2022-11-27|
+| SO2 |2022 | OMI | [Link](https://disc.gsfc.nasa.gov/datasets/OMSO2e_003/summary?keywords=omso2)|  Level 3 |2022-11-28|
 | SO2 | History(2012-2021) | OMI | [Link](https://disc.gsfc.nasa.gov/datasets/OMSO2e_003/summary?keywords=omso2) |  Level 3 | 2012-12-31 |  
 | SO2 |2022| Tropomi | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__SO2____HiR_2/summary?keywords=SO2%20sentinel) |  Level 2 | 2022-11-20|
 | SO2 |2022 | OMI | [Link](https://disc.gsfc.nasa.gov/datasets/OMSO2G_003/summary?keywords=Sulphur%20Dioxide)| Level 2 |2022-11-12|
@@ -59,7 +59,7 @@
   </tr>
   <tr>
   	<td>SO2</td>
-    <td>November 27th</td>
+    <td>November 28th</td>
     <td>December 31st</td>
     <td>December 31st</td>
     <td>December 31st</td>
