@@ -5,18 +5,18 @@
 
 |Pollutant|Period| Satellite |Source | Level |Latest |
 |--------|-----|----|----- |--------|----------- |
-| NO2 |2022 | OMI | [Link](https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary) | Level 3 |2022-11-29|
+| NO2 |2022 | OMI | [Link](https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary) | Level 3 |2022-12-12|
 | NO2 |History(2012-2021)| OMI | [Link](https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary) | Level 3 |2021-12-31|
-| NO2 |2022 | Tropomi | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__NO2____HiR_2/summary?keywords=S5P_L2__NO2) | Level 2 | 2022-11-22|
+| NO2 |2022 | Tropomi | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__NO2____HiR_2/summary?keywords=S5P_L2__NO2) | Level 2 | 2022-12-04|
 | NO2 |Historical 2021(Version 1)| Tropomi| [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__NO2____HiR_1/summary?keywords=S5P_L2__NO2____HiR)| Level 2 |2021-07-01|
 | NO2 | Historical 2021(Version 2)| Tropomi| [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__NO2____HiR_2/summary?keywords=S5P_L2__NO2____HiR)| Level 2 |2021-12-31|
 |--------|-----|----|----- |--------|----------- |
-| SO2 |2022 | OMI | [Link](https://disc.gsfc.nasa.gov/datasets/OMSO2e_003/summary?keywords=omso2)|  Level 3 |2022-11-29|
+| SO2 |2022 | OMI | [Link](https://disc.gsfc.nasa.gov/datasets/OMSO2e_003/summary?keywords=omso2)|  Level 3 |2022-12-12|
 | SO2 | History(2012-2021) | OMI | [Link](https://disc.gsfc.nasa.gov/datasets/OMSO2e_003/summary?keywords=omso2) |  Level 3 | 2012-12-31 |  
-| SO2 |2022| Tropomi | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__SO2____HiR_2/summary?keywords=SO2%20sentinel) |  Level 2 | 2022-11-22|
+| SO2 |2022| Tropomi | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__SO2____HiR_2/summary?keywords=SO2%20sentinel) |  Level 2 | 2022-12-06|
 | SO2 |2022 | OMI | [Link](https://disc.gsfc.nasa.gov/datasets/OMSO2G_003/summary?keywords=Sulphur%20Dioxide)| Level 2 |2022-11-12|
 |--------|-----|----|----- |--------|----------- |
-| O3 |2022| OMI|  [Link](https://disc.gsfc.nasa.gov/datasets/OMTO3G_003/summary?keywords=aura) |  |2022-11-26|
+| O3 |2022| OMI|  [Link](https://disc.gsfc.nasa.gov/datasets/OMTO3G_003/summary?keywords=aura) |  |2022-12-13|
 | O3 | History(2012-2021) | OMI | [Link](https://disc.gsfc.nasa.gov/datasets/OMTO3G_003/summary?keywords=aura) |  | 2012-12-31 |  
 | O3 |2022| Tropomi | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__O3_TOT_HiR_2/summary?keywords=S5P_L2__O3) |  | 2022-11-12|
 | CH4 |2022| Tropomi | [Link](https://disc.gsfc.nasa.gov/datasets/S5P_L2__CH4____HiR_2/summary?keywords=S5p%20ch4) |  | 2022-11-12|
@@ -44,7 +44,7 @@
     <td rowspan="8">Daily</td>
      <td rowspan="4">OMI</td>
      <td>NO2</td>
-     <td>November 29th </td>
+     <td>December 12th </td>
      <td>December 31</td>
      <td>December 31</td>
      <td>December 31</td>
@@ -59,7 +59,7 @@
   </tr>
   <tr>
   	<td>SO2</td>
-    <td>November 29th</td>
+    <td>December 12th</td>
     <td>December 31st</td>
     <td>December 31st</td>
     <td>December 31st</td>
@@ -73,7 +73,7 @@
   </tr>
     <tr>
   	<td>O3</td>
-    <td>November 26th</td>
+    <td>December 13th</td>
     <td>December 31st</td>
     <td>December 31st</td>
     <td>December 31st</td>
@@ -102,7 +102,7 @@
   <tr>
     <td rowspan="4">Tropomi</td>
     <td>NO2</td>
-    <td>November 22th</td>
+    <td>December 04th</td>
     <td>December 31</td>
     <td></td>
     <td></td>
@@ -116,7 +116,7 @@
   </tr>
   <tr>
   <td>SO2</td>
-    <td>November 22th</td>
+    <td>December 06th</td>
     <td></td>
     <td></td>
     <td></td>
@@ -161,7 +161,7 @@
     <td rowspan="8">Weekly (based on war start date 2022-02-25)</td>
      <td rowspan="4">OMI</td>
      <td>NO2</td>
-     <td>November 11th</td>
+     <td></td>
      <td>December 25</td>
      <td>December 26</td>
      <td>December 28</td>
@@ -175,7 +175,7 @@
   </tr>
   <tr>
     <td>SO2</td>
-    <td>November 11th</td>
+    <td>December 5th</td>
     <td></td>
     <td></td>
     <td></td>
@@ -218,7 +218,7 @@
   <tr>
     <td rowspan="4">Tropomi</td>
     <td>NO2</td>
-    <td>September 10</td>
+    <td>December 3rd</td>
     <td>December 25</td>
     <td></td>
     <td></td>
@@ -232,7 +232,7 @@
   </tr>
   <tr>
   	<td>SO2</td>
-    <td></td>
+    <td>December 5th</td>
     <td></td>
     <td></td>
     <td></td>
